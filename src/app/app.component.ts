@@ -6,5 +6,14 @@ import { Component } from '@angular/core';
   styleUrl: './app.component.css'
 })
 export class AppComponent {
-  title = 'voz-de-los-pastos-web-ui';
+  public title: string = 'voz-de-los-pastos-web-ui';
+  public counter: number = 10;
+
+  increaseBy (value :number):void {
+    this.counter += value; 
+  }
+
+  resetCounter ():void {
+    this.counter = 10; 
+  }
 }
