@@ -349,7 +349,7 @@
     display: none;
   }
 
-:root { /* seudoelemento*/
+  :root { /* seudoelemento*/
     --blanco: #ffffff; /* custom properties*/
     --oscuro: #212121;
     --primario: #ffc107;
