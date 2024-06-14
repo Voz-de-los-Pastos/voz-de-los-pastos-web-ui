@@ -124,7 +124,7 @@ h1,h2,h3 {
 }
 
 .hero {
-    background-image: url('../../public/logo\ emisora.jpeg');
+    background-image: url('../../public/logo-emisora.jpeg');
     background-repeat: no-repeat;
     background-size: cover;
     height: 450px;
