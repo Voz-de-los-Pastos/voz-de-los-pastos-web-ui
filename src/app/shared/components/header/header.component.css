@@ -1,0 +1,14 @@
+/** Header **/
+.header {
+    background-image: url(../../../../../public/tejidos.jpg);
+    height: 60rem;
+    background-size: cover; /*cubra toda el area disponible */
+    background-repeat: no-repeat;
+    background-position: center center;/* que parte de la imagen se debe posicionar */
+}
+
+.header__texto {
+    text-align: center;
+    color: var(--blanco);
+    margin-top: 5rem;
+}
