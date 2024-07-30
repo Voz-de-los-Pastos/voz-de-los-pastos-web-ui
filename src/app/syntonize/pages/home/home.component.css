@@ -32,12 +32,44 @@
 }
 
 /* modificadores de boton */
-.boton--primario {
-    background-color: var(--negro);
-}
-
 @media (min-width: 768px) {
     .boton {
         display: inline-block;
     }
+}
+
+.boton--primario {
+    background-color: var(--negro);
+}
+
+.boton--secundario {
+    background-color: var(--primario);
+}
+
+/* aside  */
+.servicios {
+    list-style: none;
+}
+
+.widget-servicio {
+    border-bottom: 1px solid var(--gris);
+    margin-bottom: 2rem;
+}
+
+.widget-servicio:last-of-type {
+    border: none;
+    margin-bottom: 0;
+}
+
+.widget-servicio__label {
+    font-family: var(--fuenteHeading);
+    font-weight: bold;
+}
+
+.widget-servicio__info {
+    font-weight: normal;
+}
+.widget-servicio__label,
+.widget-servicio__info {
+    font-size: 2rem;
 }
