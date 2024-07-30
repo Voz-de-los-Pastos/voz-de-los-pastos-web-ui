@@ -357,6 +357,9 @@
     --gris: #E1E1E1;
     --blanco: #FFFFFF;
     --negro: #000000;
+    --oscuro: #212121;
+    --primario: #ffc107;
+    --secundario: #319d19;
 }
 
 html {
