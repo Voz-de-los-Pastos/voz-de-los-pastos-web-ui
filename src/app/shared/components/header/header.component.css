@@ -23,6 +23,10 @@
     margin-top: 5rem;
 }
 
+.barra {
+    padding: 4rem;
+}
+
 @media (min-width: 768px ) {
     
     .barra {
