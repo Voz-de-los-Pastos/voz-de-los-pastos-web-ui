@@ -1,0 +1,10 @@
+/* sobre nosotros  */
+@media (min-width: 768px) {
+
+    /*GRID*/
+    .sobre-nosotros {
+        display: grid;
+        grid-template-columns: repeat(2, 50%);
+        column-gap: 2rem;
+    }
+}
