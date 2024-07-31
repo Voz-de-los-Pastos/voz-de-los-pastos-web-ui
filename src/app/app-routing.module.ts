@@ -5,7 +5,7 @@ import { AboutPageComponent } from './syntonize/pages/about-page/about-page.comp
 
 const routes: Routes = [
   {
-    path: 'home',
+    path: '',
     component: HomeComponent
   },
   {
