@@ -1,0 +1,31 @@
+/* cursos  */
+.servicio {
+    padding: 3rem 0;
+    border-bottom: 1px solid var(--gris);
+}
+
+@media (min-width: 768px) {
+    .servicio {
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        column-gap: 2rem;
+    }
+}
+
+.servicio:last-of-type {
+    border: none;
+}
+
+.servicio__label {
+    font-family: var(--fuenteHeading);
+    font-weight: bold;
+}
+
+.servicio__info {
+    font-weight: normal;
+}
+
+.servicio__label,
+.servicio__info {
+    font-size: 2rem;
+}
