@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 import { StationComponent } from './components/station/station.component';
 import { HomeComponent } from './pages/home/home.component';
 import { AboutPageComponent } from './pages/about-page/about-page.component';
+import { ServicePageComponent } from './pages/service-page/service-page.component';
 
 
 
@@ -10,7 +11,8 @@ import { AboutPageComponent } from './pages/about-page/about-page.component';
   declarations: [
     StationComponent,
     HomeComponent,
-    AboutPageComponent
+    AboutPageComponent,
+    ServicePageComponent
   ],
   imports: [
     CommonModule
@@ -18,6 +20,7 @@ import { AboutPageComponent } from './pages/about-page/about-page.component';
   exports: [
     HomeComponent,
     AboutPageComponent,
+    ServicePageComponent
   ]
 })
 export class SyntonizeModule { }
