@@ -6,6 +6,7 @@ import { AboutPageComponent } from './pages/about-page/about-page.component';
 import { ServicePageComponent } from './pages/service-page/service-page.component';
 import { IntroPageComponent } from './pages/intro-page/intro-page.component';
 import { RouterModule } from '@angular/router';
+import { ContactPageComponent } from './pages/contact-page/contact-page.component';
 
 
 
@@ -15,7 +16,8 @@ import { RouterModule } from '@angular/router';
     HomeComponent,
     AboutPageComponent,
     ServicePageComponent,
-    IntroPageComponent
+    IntroPageComponent,
+    ContactPageComponent
   ],
   imports: [
     CommonModule,
@@ -25,7 +27,8 @@ import { RouterModule } from '@angular/router';
     HomeComponent,
     AboutPageComponent,
     ServicePageComponent,
-    IntroPageComponent
+    IntroPageComponent,
+    ContactPageComponent
   ]
 })
 export class SyntonizeModule { }
