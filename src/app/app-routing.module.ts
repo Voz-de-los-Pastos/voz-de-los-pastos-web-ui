@@ -3,6 +3,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { HomeComponent } from './syntonize/pages/home/home.component';
 import { AboutPageComponent } from './syntonize/pages/about-page/about-page.component';
 import { ServicePageComponent } from './syntonize/pages/service-page/service-page.component';
+import { IntroPageComponent } from './syntonize/pages/intro-page/intro-page.component';
 
 const routes: Routes = [
   {
@@ -16,6 +17,10 @@ const routes: Routes = [
   {
     path: 'service',
     component: ServicePageComponent
+  },
+  {
+    path: 'intro',
+    component: IntroPageComponent
   },
   {
     path: '**',
