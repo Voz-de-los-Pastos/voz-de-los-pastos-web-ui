@@ -4,6 +4,9 @@ import { StationComponent } from './components/station/station.component';
 import { HomeComponent } from './pages/home/home.component';
 import { AboutPageComponent } from './pages/about-page/about-page.component';
 import { ServicePageComponent } from './pages/service-page/service-page.component';
+import { IntroPageComponent } from './pages/intro-page/intro-page.component';
+import { RouterModule } from '@angular/router';
+import { ContactPageComponent } from './pages/contact-page/contact-page.component';
 
 
 
@@ -12,15 +15,20 @@ import { ServicePageComponent } from './pages/service-page/service-page.componen
     StationComponent,
     HomeComponent,
     AboutPageComponent,
-    ServicePageComponent
+    ServicePageComponent,
+    IntroPageComponent,
+    ContactPageComponent
   ],
   imports: [
-    CommonModule
+    CommonModule,
+    RouterModule
   ],
   exports: [
     HomeComponent,
     AboutPageComponent,
-    ServicePageComponent
+    ServicePageComponent,
+    IntroPageComponent,
+    ContactPageComponent
   ]
 })
 export class SyntonizeModule { }
